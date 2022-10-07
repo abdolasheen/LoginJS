@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>lOGIN FORUM JS</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="mainCard text-center p-5">
+            <h2 class="fs-1 mb-2">Smart LogIn System</h2>
+            <input
+              type="text"
+              class="form-control bg-transparent text-white mb-3"
+              placeholder="Enter Your Name"
+              id="nameSignUp"
+            />
+            <input
+              type="text"
+              class="form-control bg-transparent text-white mb-3"
+              placeholder="Enter Your Email"
+              id="emailSignUp"
+            />
+            <input
+              type="password"
+              class="form-control bg-transparent text-white mb-4"
+              placeholder="Enter Your password"
+              id="passSignUp"
+            />
+            <p class="text-danger d-none signUpMsg">email already exists</p>
+
+            <button class="form-control signUp" id="login" onclick="addUser()">
+              SignUp
+            </button>
+            <p class="text-white mt-3">
+              Don’t have an account?
+              <a href="/index.html" class="text-white">Sign In</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
